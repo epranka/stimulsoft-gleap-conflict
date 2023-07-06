@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
 
+import Gleap from 'gleap';
+import { useEffect } from 'react';
+
+/** COMMENT THE LINE BELOW */
+Gleap.initialize("kIPBu79zTXtebCawI6OQhP8mdrJCTGIu");
+
 function App() {
+
+  useEffect(() => {
+    // Create the report designer with default options
+
+    // eslint-disable-next-line no-undef
+    var designer = new Stimulsoft.Designer.StiDesigner(null, "Designer", false);
+
+
+
+    // Show the report designer in div content
+
+    designer.renderHtml("content");
+
+
+
+    // Create a new report object
+
+    // eslint-disable-next-line no-undef
+    var report = new Stimulsoft.Report.StiReport();
+
+
+
+    // // Load report template in the report object
+
+    // report.loadFile("report url");
+
+
+
+    // Assign report object to report designer
+
+    designer.report = report;
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="content"></div>
     </div>
   );
 }

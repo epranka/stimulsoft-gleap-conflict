@@ -1,0 +1,64 @@
+.stiDesignerToolBar,
+.stiDesignerFileMenu,
+.stiDesignerToolButtonDefault,
+.stiDesignerFormButtonThemeDefault,
+.stiDesignerStatusPanel,
+.stiJsViewerNavigatePanel {
+  background: #0b3f30 !important;
+}
+
+.stiDesignerToolButtonSelected {
+  color: #0b3f30 !important;
+}
+
+.stiDesignerToolBar .stiDesignerToolButtonOver,
+.stiDesignerToolBar .stiDesignerFormButtonThemeOver,
+.stiDesignerToolBar .stiDesignerFileMenuItemSelected {
+  background: #00b373 !important;
+  color: white !important;
+}
+
+.stiDesignerFileMenuSeparator {
+  background: white !important;
+}
+
+.stiDesignerFormButtonThemeDefault {
+  color: white !important;
+}
+
+.stiDesignerToolButtonDefault {
+  color: white !important;
+}
+
+.stiDesignerToolButtonSelected {
+  color: white !important;
+}
+
+.stiDesignerStandartTabFooter {
+  background: white !important;
+}
+
+.stiDesignerFileMenuItemOver {
+  background: #13583f !important;
+}
+
+.stiDesignerFileMenuItemSelected {
+  background: #00b373 !important;
+}
+
+.stiDesignerToolBar .stiDesignerStandartSmallButtonDefault {
+  color: white !important;
+}
+
+.stiDesignerToolBar .stiDesignerStandartSmallButtonDefault img {
+  filter: brightness(2) !important;
+}
+
+.stiDesignerToolBar .stiDesignerStandartSmallButtonOver {
+  background: #00b373 !important;
+  color: white !important;
+}
+
+.stiDesignerToolBar .stiDesignerStandartSmallButtonOver img {
+  filter: brightness(2) !important;
+}
